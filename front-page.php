@@ -791,16 +791,20 @@
             </div>
 
             <div class="row">
-                <form action="/wp-content/themes/integra/submit-form.php" method="post" class="col form">
-                    <input type="text" name="name" id="name" class="input" placeholder="Name *" required>
-                    <input type="tel" name="phone" id="phone" class="input" placeholder="Phone Number *" required>
-                    <input type="email" name="email" id="email" class="input" placeholder="Email *" required>
-                    <input type="text" name="interest" id="interest" class="input" placeholder="Interested In">
-                    <textarea name="message" id="message" class="input" placeholder="Message *" required></textarea>
-                    <button type="submit" class="btn">
-                        send email <ion-icon name="arrow-forward-outline"></ion-icon>
-                    </button>
-                </form>
+	        <form action="https://formsubmit.co/towfiqueelahe@gmail.com" method="post" class="col form">
+	            <input type="hidden" name="_next" value="https://elahe-portfolio.vercel.app/">
+	            <input type="hidden" name="_subject" value="New submission from Integra Website!">
+	            <input type="hidden" name="_captcha" value="false">
+	            <input type="hidden" name="_template" value="table">
+	            <input type="text" name="name" id="name" class="input" placeholder="Name *" required="">
+	            <input type="tel" name="phone" id="phone" class="input" placeholder="Phone Number *" required="">
+	            <input type="email" name="email" id="email" class="input" placeholder="Email *" required="">
+	            <input type="text" name="interest" id="interest" class="input" placeholder="Interested In">
+	            <textarea name="message" id="message" class="input" placeholder="Message *" required=""></textarea>
+	            <button type="submit" class="btn">
+	                send email <ion-icon name="arrow-forward-outline"></ion-icon>
+	            </button>
+	        </form>
                 <div class="col">
                     <img src="/wp-content/themes/integra/assets/images/contact-us.png" alt="" class="contact-img">
                 </div>
