@@ -5,6 +5,17 @@
 This repository contains the source code for the Integra Leather wordpress theme, which was developed using PHP. Theme was designed before and source code - https://github.com/towfique-elahe/integra-web-design. <br>
 Below, you'll find an overview of the technical details and components used in the development of this website.
 
+## Theme Installation Guide
+
+- Download zip file, and upload it in WordPress Dashboard -> Appearance -> Themes -> Upload. Or you can put unziped file in wp-content/themes/ .
+- Now go to WordPress Dashboard -> Appearance -> Themes, there you will find the theme with all info and thumbnail.
+- Activate the theme and customize website identity.
+- Now go to Tools -> Import, then install WordPress and Run Importer.
+- Upload the file integraleather-wp-pages.xml, it will upload all pages with content.
+- Go to Settings -> Reading, then set 'Your homepage displays' option as 'A Static Page'.
+- Then select 'Integra Leather' as Homepage and 'News & Events' as Posts Page.
+
+
 ## Technologies Used
 
 - Theme was designed using **HTML**, **CSS**, **JS**
